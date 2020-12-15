@@ -6,7 +6,7 @@ variable "image_id" {
 
 variable "KeyName" {
   type    = string
-  default = "MaisA"
+  default = #KEYNAME
 }
 
 variable "availability_zone_names" {
@@ -16,12 +16,12 @@ variable "availability_zone_names" {
 
 variable "access_key_var" {
   type        = string
-  default = "AKIAVI7ZKT6NGOXZZE7V"
+  default = #ACCESS KEY
 }
 
 variable "secret_key_var" {
   type        = string
-  default = "0ezZ8xyISVeIGk332g9foAetb9JwGVT3ThmnJVAL"
+  default = #SECRET ACCESS KEY
 }
 
 variable "vpc_ip" {
